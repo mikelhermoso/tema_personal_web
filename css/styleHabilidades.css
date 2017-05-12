@@ -1,0 +1,69 @@
+/* 
+    Created on : 09-may-2017, 9:03:58
+    Author     : mikel
+*/
+#contentHabilidades {
+    clear: both;
+    width: 100%;
+    max-width: 1920px;
+    margin: 70px auto;
+    height: 500px;
+    background: url(../img/fondo5.jpg) fixed;
+    /*background: #242424;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+}
+#contentHabilidadesIn {
+    width: 1200px;
+    margin: 0 auto;
+}
+#contentHabilidades2 {
+    width: 50%;
+    margin: 0 auto;
+    height: 500px;
+    float: left; 
+}
+#containerHabilidades1, #containerHabilidades2, #containerHabilidades3, #containerHabilidades4  {
+    width: 90%;
+    margin: 10px auto;
+    height: 205px;
+    text-align: center;
+    opacity: 0.7;
+    padding: 15px;
+}
+#containerHabilidades1, #containerHabilidades4 {
+    background: #D46A6A;
+    background: url(../img/fondoHabRojo.png) fixed;
+}
+#containerHabilidades2, #containerHabilidades3 {
+    background: #5F5F5F;
+    background: url(../img/fondoHabOsc.png) fixed;
+}
+#contentHab {
+    width: 250px;
+    float: left;
+}
+#containerHab {
+    width: 90%;
+    margin: 15px auto;
+    background: #D46A6A;
+    /*border: solid 1px;*/
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+#contentTextoHabs1, #contentTextoHabs2, #contentTextoHabs3, #contentTextoHabs4 {
+    color: white;
+}
+/*CLASES*/
+h1.titHab {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 1.7em;
+}
+p.textoHabs {
+    color: white;
+    font-weight: bold;
+}

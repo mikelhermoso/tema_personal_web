@@ -1,0 +1,22 @@
+/* 
+    Created on : 05-may-2017, 10:06:09
+    Author     : mikel
+*/
+nav {
+    width: 70%;
+    height: 50px;
+    margin-top: 0px;
+    float: left;
+}
+nav ul {
+    list-style:none;
+}
+nav ul li {
+    margin-left: 20px;
+    float: left;
+    display: block;
+    color: white;
+}
+nav ul li:hover {
+    color: #D46A6A;
+}

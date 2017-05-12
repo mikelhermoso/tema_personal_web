@@ -1,0 +1,46 @@
+/* 
+    Created on : 05-may-2017, 10:56:42
+    Author     : mikel
+*/
+#contentSobreMi {
+    width: 100%;
+    max-width: 1200px;
+    min-height: 800px;
+    margin: 30px auto;
+    background: white;
+}
+#contentImgContacto {
+    width: 35%;
+    float: left;
+}
+#contentTextoSobreMi {
+    width: 65%;
+    float: right;
+}
+/*CLASES*/
+.imgMiFoto {
+    width: 85%;
+    /*height: 300px;*/
+    float: left;
+    margin-top: 15px;
+    -webkit-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.75);
+}
+p.textoSobreMi, li.liSobreMi {
+    color: black;
+    letter-spacing: 0.8px;
+    line-height: 30px;
+}
+h2.subTitSobreMi {
+    color: #D46A6A;
+    margin-top: 25px;
+}
+li.liSobreMi {
+    list-style: none;
+}
+hr.sobremi {
+    border: 0; 
+    height: 12px; 
+    box-shadow: inset 0 12px 12px -12px lightgray;
+}
